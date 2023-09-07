@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31831267, g: 0.5865398, b: 0.73666227, a: 1}
+  m_IndirectSpecularColor: {r: 0.3183488, g: 0.5877001, b: 0.7355674, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6303,7 +6303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 0
   totalLetter: 0
-  Total_Number_Of_Letter: {fileID: 2111002627}
+  Total_Number_Of_Letter: {fileID: 1370952725}
   number_of_MakeLetter: 1
   QuestionType: 0
   RandomLevel: 0

@@ -48,6 +48,8 @@ namespace Letter
         private RandomLetterList rLetterList;
         #endregion
 
+        public int agerandom;
+
         void Start()
         {   
             rLetterList = new RandomLetterList(); 
@@ -147,9 +149,11 @@ namespace Letter
                 else{   
                     string jsonResponse = request.downloadHandler.text;
                     userAgeData ageresponse = JsonUtility.FromJson<userAgeData>(jsonResponse);
+                    agerandom = ageresponse.user_age_num;
                     for (int a = ageresponse.user_age_num; a>=1; a--)
                     {
                         rLetterList.ageOptions.Add((a * 10)+"대에");
+                        print(a);
                     }
                 }
             }

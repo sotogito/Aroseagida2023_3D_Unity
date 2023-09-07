@@ -1,0 +1,20 @@
+Using template '/Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml'
+
+android.hardware.vulkan.version was added because:
+	One of the graphics devices was Vulkan
+supports-gl-texture elements added because:
+	TextureSupport was not set to generic
+android.permission.INTERNET was added because:
+	UnityEngine.Networking was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+	UnityEngine.Network was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+	UnityEngine.WWW was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+	UnityEngine.Networking.UnityWebRequest was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
+	UnityEngine.Input::GetTouch was present in:
+		UnityEngine.UI-FeaturesChecked.txt
+	UnityEngine.Input::get_touchCount was present in:
+		UnityEngine.UI-FeaturesChecked.txt
